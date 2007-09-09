@@ -1,7 +1,7 @@
 Summary:	Simple automatic certificate enroller
 Name:		autosscep
 Version:	0.9.28b
-Release:	%mkrel 2
+Release:	%mkrel 3
 License:	BSD-like
 Group:		Networking/Other
 URL:		http://autosscep.spe.net/
@@ -40,5 +40,3 @@ install -m0755 autosscep %{buildroot}%{_sbindir}/
 %defattr(-,root,root)
 %doc COPYRIGHT EMPTYCONFIG ERRORS HOWTOCONFIGURE-Eng HOWTOCONFIGURE-Ita README
 %{_sbindir}/autosscep
-
-
