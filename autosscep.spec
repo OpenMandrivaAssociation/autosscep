@@ -7,7 +7,6 @@ Group:		Networking/Other
 URL:		http://autosscep.spe.net/
 Source0:	http://autosscep.spe.net/archives/autoSscep-%{version}.tar.bz2
 BuildRequires:	openssl-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
 AUTOSSCEP is an automatic x509 certificate enroller based on SCEP
