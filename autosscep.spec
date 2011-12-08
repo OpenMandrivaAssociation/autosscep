@@ -27,7 +27,7 @@ chmod 644 *
 # fix end of lines
 for i in ERRORS HOWTOCONFIGURE-Ita README HOWTOCONFIGURE-Eng EMPTYCONFIG; do
 	cp $i $i.msdos
-	dos2unix -U $i
+	dos2unix $i
 done
 
 %build
