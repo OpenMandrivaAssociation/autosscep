@@ -4,7 +4,7 @@ Version:	0.9.28b
 Release:	%mkrel 6
 License:	BSD-like
 Group:		Networking/Other
-URL:		http://autosscep.spe.net/
+URL:		https://autosscep.spe.net/
 Source0:	http://autosscep.spe.net/archives/autoSscep-%{version}.tar.bz2
 BuildRequires:	openssl-devel
 BuildRequires:	dos2unix
