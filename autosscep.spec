@@ -6,6 +6,7 @@ License:	BSD-like
 Group:		Networking/Other
 URL:		https://autosscep.spe.net/
 Source0:	http://autosscep.spe.net/archives/autoSscep-%{version}.tar.bz2
+BuildRequires:	make
 BuildRequires:	openssl-devel
 BuildRequires:	dos2unix
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
